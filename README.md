@@ -1,4 +1,9 @@
 # ar-class-2022-hw3
+## The HW
+The pdf of the HW is given in `hw1.pdf`.
+
+## Explanation about Question 1
+### Dependencies
 A `dep` file is partitioned into blocks. 
 The blocks are separated by a blank line.
 Each block except for the last one must begin with a line of the form:
@@ -42,6 +47,8 @@ For example, the file `benchmarks/ex1.dep` describes a scenario in which we woul
 The program you are implementing should either output `There is no installation plan` or
 `There is an installation plan`.
 In the latter case, starting from the second line of the output, the installation plan should be printed, each package in its own line.
+
+### Examples
 
 This repository contains some example `dep` files. 
 Below is the expected results for these files:
