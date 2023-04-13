@@ -10,7 +10,7 @@ Each block except for the last one must begin with a line of the form:
 ```
 package: <package-name>
 ```
-followed by a line of the form 
+This may be followed by a line of the form 
 ```
 Depends: <package-name1>|<package-name2>,...
 ```
@@ -37,8 +37,8 @@ Depends : a,   b, c
 
 The meaning of each block is a definition of dependencies:
 - The described package is the one listed right after `package: ` in the first line of the block.
-- The list after `Depends: ` is a list of packages that need to be installed in$ order to install the described package. A comma means "and", a pipe means "or".
-- The list after `Conflicts: ` is a list of pckages that conflict with the described package -- they are not allowed to be installed if we want to install the package.
+- The list after `Depends: ` is a list of packages that need to be installed in order to install the described package. A comma means "and", a pipe means "or".
+- The list after `Conflicts: ` is a list of packages that conflict with the described package -- they are not allowed to be installed if we want to install the package.
 
 The meaning of the last line of the file is just a list of packages that we want to install.
 

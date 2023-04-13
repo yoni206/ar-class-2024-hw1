@@ -1,11 +1,3 @@
-# a file consists of blocks
-# each block has at least one line
-# blocks are separated by empty lines
-# The last block has a single line that must start with "Install"
-# Other blocks must start with "Package" and hace at most two additional lines, that start with "Depends" and/or "Conflicts"
-# lines that start with "#" should be ignored
-# all whitespaces should be ignored
-
 Package: apache
 Depends: java,apt|c
 Conflicts: c

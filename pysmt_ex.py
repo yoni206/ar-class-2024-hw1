@@ -1,5 +1,4 @@
 from pysmt.shortcuts import Solver, And, Or, Not, BOOL, Symbol, TRUE
-
 solver = Solver(name="z3")
 
 a = Symbol("a", BOOL)
