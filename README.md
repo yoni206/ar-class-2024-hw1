@@ -1,4 +1,4 @@
-# ar-class-2022-hw3
+# ar-class-2024-hw1
 ## The HW
 The pdf of the HW is given in `hw1.pdf`.
 
